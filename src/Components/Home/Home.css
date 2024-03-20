@@ -1,0 +1,84 @@
+/* Reset some default styles */
+.home_body{
+  background-image: url("/src/Images/img7.jpg");
+  border-image: fill 0 linear-gradient (#0003,#000);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  /* Navigation list styles */
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* List item styles */
+  .nav-list li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  /* Link styles */
+  .nav-list a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  
+  .nav-list a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .nav-list {
+      flex-direction: column;
+      align-items: stretch;
+    }
+    
+    .nav-list li {
+      text-align: left;
+      padding: 10px 15px;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    .nav-list a {
+      padding: 8px 0;
+    }
+  }
+
+
+  .username{
+    background: linear-gradient(to right,#11CAC3,#fff 35%,#B97133);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+
+    margin-top: 120px;
+    margin-left: 120px;
+  }
+
+  @keyframes gradient{
+    0% {background-position: 0% 75%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 70%;}
+  }
+  

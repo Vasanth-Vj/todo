@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.category_body{
+    background-image: url("/src/Images/img6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+.form_container{
+
+    /* background-color:#4E8F8A; */
+    backdrop-filter: blur(25px);
+    border: 2px solid var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    border: 2px solid black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    border-radius: 20px;
+    backdrop-filter: blur(25px);
+    box-shadow: 2px 2px 10px 5px rgba(36, 75, 203, 0.2);
+
+}
+
+
+.mb-2{
+    color:#B97133 ;
+     padding: 20px;
+
+    
+}
+
+.label2{
+
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 500px;
+    background: transparent;
+    color: var(--second-color);
+    padding-inline: 20px 50px;
+    border: 1px solid #11CAC3;
+    border-radius: 30px;
+    outline: none;
+    
+}
+
+.input{
+ margin-left: 10px;
+}
+
+.Btns{
+    padding-bottom: 10px;
+}
+
+.container3{
+    margin-top: 200px;
+    
+}
+
+.heading{
+    color:white;
+
+}
+
+.clearbtn{
+    margin-left: 30px;
+}
+
+.deleteBtn{
+    margin-left: 10px;
+
+}
+
